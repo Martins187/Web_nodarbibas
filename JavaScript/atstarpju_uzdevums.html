@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stringu atdalisanas uzdevums</title>
+</head>
+<script>
+    var vards = "  Martins   Balcuns  ";
+    console.log(vards);
+    vards1 = vards.trim();
+    console.log(vards1);
+
+    for(i = 0; i < vards.length; i++){
+        j = i;
+        if(vards[i]==" "){
+            j++
+            while(vards[j]==" "){
+                vards[j]="";
+                j++;
+            }
+            console.log(vards[i]);
+        }
+    }
+    console.log(vards1[1]);
+</script>
+<body>
+    
+</body>
+</html>

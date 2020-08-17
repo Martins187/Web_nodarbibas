@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <header id = "header_id" class = "header_class">Header</header>
+    <main>My main</main>
+    <footer>Footer</footer>
+</body>
+</html>
+<script src = "patstavigais_darbs.js"></script>
+
+<!-- <script>
+    document.getElementById("header_id").innerText = "Changed header";
+    console.log(document);
+    console.log(document.getElementById("header_id"));
+    console.log(document.getElementsByClassName("header_class"));
+
+    var redText = document.getElementsByClassName("red_text");
+    for(i=0; i < redText.length; i++){
+        redText[i].innerText = "red_text";
+        document.getElementsByClassName("red_text")[i].innerHTML = "<h2> Red Text </h>"
+         
+    }
+</script> -->
+<script>
+    console.log(document.getElementsByTagName("main"));
+    console.log(window);
+
+    console.log(innerHeight);
+    console.log(innerWidth);
+
+    window.onclick(alert("You clicked"))
+</script>

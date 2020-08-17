@@ -1,0 +1,26 @@
+body{
+    background-color: gray;
+}
+div{
+    background-image: url("abstract.jpg");
+    color: white;
+}
+.parallax{
+    background-image: url("fox.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    position: relative;
+    text-align: center;
+    
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
