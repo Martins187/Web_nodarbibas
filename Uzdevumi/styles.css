@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(72, 72, 72);
+}
+h1{
+    text-align: center;
+    
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.parametri{
+    position: fixed;
+    bottom: 200px;
+    left: 250px;
+    width: 300px;
+    height: 500px;
+    border: 10px solid blanchedalmond;
+    background-color: white;
+    
+    
+}
+.parametri_flex{
+    position: fixed;
+    bottom: 280px;
+    left: 320px;
+}
+.poga{
+    position: fixed;
+    bottom: 210px;
+    background-color: black;
+    width: 300px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+}
+.poga:hover{
+    opacity: 0.8;
+}
+.fa {
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover{
+    opacity: 0.7;
+}
+.fa-facebook{
+    color: black
+}
+.fa-twitter{
+    color: black;
+}
+.fa-linkedin{
+    color: black;
+}

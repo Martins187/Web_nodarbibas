@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid layout</title>
+    <style>
+        .item1 { grid-area: header; font-size: 50px; color:rgb(56, 226, 53)}
+        .item2 { grid-area: menu; }
+        .item3 { grid-area: main; }
+        .item4 { grid-area: right; }
+        .item5 { grid-area: footer; }
+
+        .grid-container {
+        display: grid;
+        grid-template-areas:
+        'header header header header header'
+        'menu main main main right'
+        'menu footer footer footer footer';
+        grid-gap: 10px;
+        background-image: url(https://66.media.tumblr.com/1530e16c4a2dc7ff5550ab59d32e10d6/tumblr_pbv4gtEnVs1sgw7hlo1_500.gifv);
+        padding: 10px;
+        }
+
+        .grid-container > div {
+            /* Attiecas tikai uz pirmā līmeņa bērniem nevis mazbērniem!*/
+        background-image: url(https://66.media.tumblr.com/1530e16c4a2dc7ff5550ab59d32e10d6/tumblr_pbv4gtEnVs1sgw7hlo1_500.gifv);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+        border: 100px solid red;
+        border-image: url(https://i.pinimg.com/originals/e3/ea/78/e3ea780936fa4fd667123bd663afe05e.gif);
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="item1">Chayahmah</div>
+        <div class="item2">Menu</div>
+        <div class="item3">Main</div>  
+        <div class="item4">Right</div>
+        <div class="item5">Footer</div>
+      </div>
+</body>
+</html>

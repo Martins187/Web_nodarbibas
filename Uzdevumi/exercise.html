@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: blue;
+            padding: 10px;
+            border: 10px solid  grey;
+            text-align: center;
+        }
+        .row{
+            background-color: green;
+            padding: 10px;
+            border: 1px dashed grey;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+        .column{
+            background-color: red;
+            padding: 10px;
+            border: 1px dashed grey;
+            flex-basis: 200px;
+        }
+        .content{
+            background-color: purple;
+            padding: 10px;
+            border: 1px grey;
+            flex-basis: 200px;
+            flex-grow:3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="column">
+                <div class="content">gg</div>
+                <div class="content">hh</div>
+            </div>
+            <div class="column">
+                <div class="content">gg</div>
+                <div class="content">hh</div>
+            </div>
+    
+        </div>
+        
+    </div>
+</body>
+</html>
